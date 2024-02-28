@@ -30,3 +30,9 @@ cliente.edad = 27; //DE ESTA MANERA SI PODRIAS HACER CAMBIOS DENTRO DEL OBJETO D
 
 
 
+const nombre = "Oscar"
+const edad = 26
+const nacionalidad = "Española"
+
+
+console.log(`Me llamo ${nombre} mi edad es ${edad} y soy ${nacionalidad}`)
