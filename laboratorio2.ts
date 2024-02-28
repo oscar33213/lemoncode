@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Tienes un grupo de 6 amigos y quieres invitarlos a cenar por tu cumpleaños.
 
     Solo puedes permitirte invitar a las bebidas, ya que estás un poco ajustado de dinero.
@@ -15,3 +16,19 @@ console.log((ticketCena-bebidas)/amigos);
 
 
 
+=======
+/*Tienes un grupo de 6 amigos y quieres invitarlos a cenar por tu cumpleaños.
+
+    Solo puedes permitirte invitar a las bebidas, ya que estás un poco ajustado de dinero.
+    Tienes un ticket de cena que cuesta 120 € y en el que ya se incluyen las bebidas por un valor de 18 €.
+    Calcula cuánto tendría que pagar cada comensal para dividir los costos de manera equitativa.
+    Utiliza JavaScript para hacer el cálculo y mostrar el resultado por consola.
+*/
+
+
+let ticketCena = 120;
+let bebidas = 18;
+let amigos = 6;
+
+console.log((ticketCena-bebidas)/amigos);
+>>>>>>> 31ba5615cfc8a9b1120aa0ae27c474873819d85f
