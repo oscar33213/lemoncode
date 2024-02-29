@@ -42,3 +42,34 @@ botonSuma.addEventListener("click", Suma)
 }
 
 console.log(Suma); 
+
+
+//INSTANCE OF Y TYPEOF
+
+function changePhotoMain(idMiniatura :string) : void{
+    const fotoprincipal = document.getElementById("foto-principal") as HTMLImageElement; //HACEMOS EL CASTING PARA EL ELEMENTO img
+    const miniatura = document.getElementById(idMiniatura)
+
+    if(fotoprincipal !== null && fotoprincipal !== undefined && miniatura !== undefined && miniatura !== null){
+        if(miniatura instanceof HTMLImageElement){ //ESTAMOS CREANDO UNA CONDICION PARA QUE NOS DIGA SI miniatura.src ES UNA INSTANCIA DE HTMLImageElement
+
+    fotoprincipal.src = miniatura.src; 
+    }
+}
+
+
+const miniaturauno: HTMLElement | null = document.getElementById("miniatura1");
+const miniaturados: HTMLElement | null = document.getElementById("miniatura2");
+const miniaturatres: HTMLElement | null = document.getElementById("miniatura3");
+
+
+if(miniaturauno !== null && miniatura1 !== undefined){
+miniaturauno.addEventListener("click", function(){changePhotoMain("miniatura1")})
+}
+if(miniaturados !== null && miniatura2 !== undefined){
+miniaturados.addEventListener("click", function(){changePhotoMain("miniatura2")})
+}
+if(miniaturatres !== null && miniatura3 !== undefined){
+miniaturatres.addEventListener("click", function(){changePhotoMain("miniatura3")})
+    }
+}
